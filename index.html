@@ -1,0 +1,155 @@
+<!doctype html>
+<html lang="es">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Menú Turno La Paz 2026</title>
+  <style>
+    :root{
+      --moss:#3f5d3a;
+      --ink:#111;
+      --paper:#fbfbf7;
+      --line:#d9dfd0;
+    }
+    body{
+      margin:0;
+      font-family: system-ui, -apple-system, Segoe UI, Roboto, Arial, sans-serif;
+      background: var(--paper);
+      color: var(--ink);
+    }
+    header{
+      padding: 28px 16px 14px;
+      text-align:center;
+    }
+    h1{
+      margin:0;
+      font-size: clamp(24px, 4vw, 36px);
+      color: var(--moss);
+      letter-spacing: .2px;
+    }
+    .sub{
+      margin: 8px 0 0;
+      font-size: 14px;
+      opacity: .85;
+    }
+    main{
+      max-width: 820px;
+      margin: 0 auto;
+      padding: 16px;
+    }
+    .card{
+      background:#fff;
+      border:1px solid var(--line);
+      border-radius: 18px;
+      box-shadow: 0 6px 18px rgba(0,0,0,.06);
+      overflow:hidden;
+    }
+    .bar{
+      background: rgba(63,93,58,.08);
+      border-bottom:1px solid var(--line);
+      padding: 12px 16px;
+      display:flex;
+      align-items:center;
+      justify-content:space-between;
+      gap: 12px;
+    }
+    .bar b{
+      color: var(--moss);
+    }
+    table{
+      width:100%;
+      border-collapse: collapse;
+      font-size: 16px;
+    }
+    th, td{
+      padding: 12px 16px;
+      border-bottom: 1px solid var(--line);
+    }
+    th{
+      text-align:left;
+      font-size: 14px;
+      letter-spacing:.3px;
+      text-transform: uppercase;
+      color: #2b2b2b;
+      background:#fff;
+    }
+    td.price, th.price{
+      text-align:right;
+      white-space: nowrap;
+      font-variant-numeric: tabular-nums;
+    }
+    tr:last-child td{
+      border-bottom: none;
+    }
+    .note{
+      padding: 12px 16px 18px;
+      font-size: 13px;
+      opacity: .85;
+    }
+    .pill{
+      display:inline-block;
+      padding: 4px 10px;
+      border-radius: 999px;
+      border: 1px solid var(--line);
+      background:#fff;
+      font-size: 12px;
+      color: #2b2b2b;
+    }
+    footer{
+      padding: 18px 16px 28px;
+      text-align:center;
+      font-size: 12px;
+      opacity: .75;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Menú Turno Diaconía La Paz 2026</h1>
+    <p class="sub">Precios en colones (₡). ¡Gracias por su apoyo!</p>
+  </header>
+
+  <main>
+    <section class="card" aria-label="Menú">
+      <div class="bar">
+        <div><b>Diaconía La Paz</b></div>
+        <div class="pill">Actualizado 2026</div>
+      </div>
+
+      <table role="table">
+        <thead>
+          <tr>
+            <th>Menú</th>
+            <th class="price">P/U</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr><td>Arroz con Carne en Salsa</td><td class="price">₡ 3,000</td></tr>
+          <tr><td>Bolsa de Picadillo</td><td class="price">₡ 2,500</td></tr>
+          <tr><td>Vigorón</td><td class="price">₡ 3,000</td></tr>
+          <tr><td>Frito</td><td class="price">₡ 2,500</td></tr>
+          <tr><td>Sopa de Mondongo</td><td class="price">₡ 3,000</td></tr>
+          <tr><td>Lomo Relleno</td><td class="price">₡ 2,500</td></tr>
+          <tr><td>Gallo de Picadillo</td><td class="price">₡ 2,000</td></tr>
+          <tr><td>Piña de Tamales</td><td class="price">₡ 1,300</td></tr>
+          <tr><td>Tamal</td><td class="price">₡ 600</td></tr>
+          <tr><td>Café Negro</td><td class="price">₡ 700</td></tr>
+          <tr><td>Café con Leche</td><td class="price">₡ 800</td></tr>
+          <tr><td>Aguadulce</td><td class="price">₡ 500</td></tr>
+          <tr><td>Fresco de Frutas</td><td class="price">₡ 700</td></tr>
+          <tr><td>Gaseosas / Tropicales</td><td class="price">₡ 700</td></tr>
+          <tr><td><b>*para llevar</b></td><td class="price">₡ 200</td></tr>
+        </tbody>
+      </table>
+
+      <div class="note">
+        <b>*para llevar:</b> cargo adicional por empaque.
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    Diaconía La Paz — Turno 2026
+  </footer>
+</body>
+</html>
